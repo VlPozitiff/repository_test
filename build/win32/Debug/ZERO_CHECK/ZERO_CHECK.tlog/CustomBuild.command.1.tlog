@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOCUMENTS\GITHUB\REPOSITORY_TEST\BUILD\CMAKEFILES\44FAF95BED679A555025585512739FFA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Documents/GitHub/repository_test -BC:/Users/user/Documents/GitHub/repository_test/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/user/Documents/GitHub/repository_test/build/MyProject.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

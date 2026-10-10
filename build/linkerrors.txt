@@ -1,0 +1,11 @@
+================================================================================
+Linker Errors
+Generated: 2026-10-10T10:00:01.192Z
+Total Errors: 2
+================================================================================
+
+[LNK2019] (MSVC)
+ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ). [C:\Users\user\Documents\GitHub\repository_test\build\repository_test.vcxproj]
+
+[LNK1120] (MSVC)
+неразрешенных внешних элементов: 1 [C:\Users\user\Documents\GitHub\repository_test\build\repository_test.vcxproj]
